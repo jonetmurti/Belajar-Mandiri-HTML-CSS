@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    background: #cbf3f0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    background-color: #2ec4b6;
+    width: 100%;
+    padding: 50px;
+    font-family: "Fredoka One";
+    font-size: x-large;
+    color: #cbf3f0;
+}
+
+.content-container {
+    margin: 20px 0px;
+}
+
+.content-name {
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 0px 30px 30px;
+    font-family: "Neucha";
+}
+
+.content-name h3 {
+    font-family: "Fredoka One";
+    color: #ff9f1c;
+    margin-bottom: 0px;
+}
+
+.content-name p {
+    color: #ff9f1c;
+    margin-top: 0px;
+}
+
+.content-img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.content-bio {
+    float: right;
+    width: 69%;
+    font-family: "Neucha";
+    color: #000000;
+}
+
+.bio-box {
+    position: relative;
+}
+
+.bio-data {
+    background-color: #ffffff;
+    padding: 2px 0px 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 42px;
+    overflow: hidden;
+}
+
+.bio-data p {
+    margin: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid black;
+}
+
+.circle {
+    cursor: pointer;
+    display: block;
+	border-radius: 50%;
+    width: 40px;
+  	height: 40px;
+    background-color:#ff9f1c;
+    margin: auto;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0px 0px 3px 3px;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+.up {
+    transform: rotate(135deg);
+    position: relative;
+    left: 16px;
+    bottom: -17px
+}
+
+.down {
+    transform: rotate(315deg);
+    position: relative;
+    left: 15px;
+    bottom: -13px
+}
